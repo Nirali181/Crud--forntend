@@ -1,0 +1,61 @@
+.userlist-container {
+  .search-bar {
+    width: 250px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .add-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background: lightcoral;
+    color: white;
+  }
+  .export-csv {
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background: lightcoral;
+    color: white;
+  }
+  .filter-container {
+    width: 100%;
+    .export-file {
+      width: 25%;
+    }
+    .gender-filter {
+      width: 25%;
+      p {
+        font-size: 25px;
+        font-weight: 500;
+      }
+    }
+    .sort-container {
+      width: 25%;
+      position: relative;
+      p {
+        font-size: 25px;
+        font-weight: 500;
+      }
+      i {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sort-data {
+        position: absolute;
+        top: 75px;
+        left: 50px;
+        width: 100px;
+        cursor: pointer;
+        background: whitesmoke;
+        .sort-value {
+          background-color: lightcoral;
+        }
+      }
+    }
+  }
+}

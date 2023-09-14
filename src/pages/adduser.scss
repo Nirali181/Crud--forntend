@@ -1,0 +1,42 @@
+.adduser-container {
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 10px;
+  .heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropdown-container{
+    border:1px solid #2D68C4;
+    width: 115px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #AFDBF5;
+    &:focus{
+      border: none;
+    }
+  }
+  .status-label{
+   margin-right: 20px;
+  }
+  .input-field {
+    padding: 5px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    &::placeholder {
+      margin-right: 18px;
+    }
+  }
+  .submit-btn{
+    width: 135px;
+    height: 35px;
+    border-radius: 5px;
+    background: lightsteelblue; 
+  }
+}
